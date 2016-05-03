@@ -1,0 +1,24 @@
+{
+  "name": "hubot-slack-reaction",
+  "version": "0.0.1",
+  "description": "slack.reaction event for hubot",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/michielrensen/hubot-slack-reaction.git"
+  },
+  "keywords": [
+    "hubot",
+    "slack",
+    "reaction"
+  ],
+  "author": "Michiel Rensen <info@michielrensen.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michielrensen/hubot-slack-reaction/issues"
+  },
+  "homepage": "https://github.com/michielrensen/hubot-slack-reaction"
+}
