@@ -1,6 +1,6 @@
 {
   "name": "hubot-slack-reaction",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "slack.reaction event for hubot",
   "main": "index.coffee",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/michielrensen/hubot-slack-reaction/issues"
   },
-  "homepage": "https://github.com/michielrensen/hubot-slack-reaction"
+  "homepage": "https://github.com/michielrensen/hubot-slack-reaction",
+  "dependencies": {
+    "coffee-script": "^1.10.0"
+  }
 }
