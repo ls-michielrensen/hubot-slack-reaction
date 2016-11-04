@@ -1,6 +1,6 @@
 {
   "name": "hubot-slack-reaction",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "slack.reaction event for hubot",
   "main": "index.coffee",
   "scripts": {
