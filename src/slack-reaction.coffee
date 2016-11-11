@@ -13,9 +13,11 @@ module.exports = (robot) ->
   reaction = (data) ->
     payload = {}
     payload.name = data.name
-    payload.timestamp = data.message.id
-    payload.channel  = data.message.room
+    payload.timestamp = data.message.rawMessage.ts
+    payload.channel  = data.message.rawMessage.channel
     payload.token = process.env.HUBOT_SLACK_TOKEN
+
+    reqbody = JSON.stringify(payload)
 
     robot.http(options.endpoint + "?token=" + payload.token + "&name=" + payload.name + "&timestamp=" + payload.timestamp + "&channel=" + payload.channel)
       .get() (err, res, body) ->
